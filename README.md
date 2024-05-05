@@ -1,6 +1,6 @@
 # Macros-of-High-Protein-Foods
 
-One of my passions outside of data analysis and coding is working out. While working out, you have to keep track of your diet and make sure you eat enough protein in order to allow your muscles to recover and grow. I was wondering what foods had the highest protein content and if I could find foods that I didn't know had high protein content into my diet. 
+I'm passionate about fitness alongside data analysis and coding. When it comes to working out, maintaining a balanced diet with sufficient protein is crucial for muscle recovery and growth. I'm curious to explore which foods are the richest in protein and discover any unexpected sources that could enhance my diet and workout performance.
 
 ## Data Source
 
@@ -28,7 +28,8 @@ The dataset was pretty new being published around November. The author obtained 
 4. Which food Groups have the lowest calorie content?
 
 ## Data Cleaning
-I used Excel for my data cleaning process since the overall dataset was small. Overall the data set was already pretty clean as there were no missing data in any of the rows. While looking at the dataset I realized in the category_name while looking at all the unqiue values that some foods I felt were classified too specifically. For example there was only one yoghurt items and a few milk items. I felt that some of the rows could be categorized more generally. I organized any foods that felt to specific that also fell into Legumes, Dairy, and Seafood into these categories. I also decided that in the Diet types I wanted to add was Pescatarian so I looked for foods that were categorized as Seafood and converted their diet types to Pescatarian.
+In my data cleaning process using Excel, I noticed that the dataset was already quite clean with no missing values. However, upon examining the category_name column, I realized that some food items were classified too specifically. For instance, there were only a few yogurt items and several milk items, which I felt could be categorized more broadly. I decided to group certain foods that seemed overly specific into more general categories like Legumes, Dairy, and Seafood.
+Additionally, I wanted to include a new diet type, Pescatarian, so I identified foods categorized as Seafood and updated their diet types accordingly.
 
 ## Data Transformation
 I then downloaded the dataset into a CSV file and used the Data Script found in the repository that uploads the data into my local PostgreSQL database. I then used PGAdmin 4 a management tool for PostgreSQL to transform my data and find answers to the questions above. 
